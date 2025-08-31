@@ -31,7 +31,7 @@ python gui/manga_search_gui.
 
 #Once an adequate number of series have been rated (at least 60 positive and 60 negative) 
 #run to generate labels and train random forest algorithm
-python model/manga_label_vectorization.py
+python manga_recommendation/manga_label_vectorization.py
 
 # Launch GUI for recommendations
 python gui/manga_recommender_RF.py
@@ -39,5 +39,6 @@ python gui/manga_recommender_RF.py
 
 ## License
 This project is licensed under the MIT License 
+
 
 Built by Albert Drewke
