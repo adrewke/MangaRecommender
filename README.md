@@ -9,6 +9,7 @@ A personal manga recommendation system that allows users to explore, rate, and g
 -  **Genre Filtering** — Avoid unwanted genres.
 -  **Customizable Weights** — Fine-tune recommendation criteria (score, chapters, date).
 -  **Genre Analysis** — Visualize your genre preferences over time.
+-  **Small Sample Dataset** — Small sample dataset so programs run even without going through dataset creation
 
 ## Programs
 
@@ -47,4 +48,5 @@ This project is licensed under the MIT License
 
 
 Built by Albert Drewke
+
 
