@@ -23,6 +23,11 @@ git clone https://github.com/adrewke/MangaRecommender.git
 cd MangaRecommender
 pip install -r requirements.txt
 
+#If you want to generate your own db run these two otherwise skip these to run on small sample db
+python/db/update_chapters_from_mangadex.py
+
+python/db/json_to_sqlite.py
+
 # Launch GUI for rating
 python gui/manga_rating_gui.py
 
@@ -42,3 +47,4 @@ This project is licensed under the MIT License
 
 
 Built by Albert Drewke
+
